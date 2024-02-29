@@ -1,4 +1,4 @@
 FROM openjdk:17
 WORKDIR /app
-COPY target/*.jar jenkins-integration.jar
-ENTRYPOINT ["java", "-jar", "jenkins-integration.jar"]
+COPY target/*.jar jenkins-automation.jar
+ENTRYPOINT ["java", "-jar", "jenkins-automation.jar"]
